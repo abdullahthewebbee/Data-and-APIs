@@ -40,10 +40,6 @@ This course is for aspiring developers who want to learn how to work with data i
 
 ### Module 2: The Data Selfie App
 
-[The Data Selfie App](https://github.com/joeyklee/data-selfie-app) is a project tutorial by [@joeyklee](https://github.com/joeyklee).
-
-#### Videos
-
 1. What is node, npm, and express? Setting up a server to host static pages.
 2. Accessing GeoLocation with `navigator.geolocation`.
 3. What is a POST? Sending data to the server.
@@ -55,15 +51,13 @@ This course is for aspiring developers who want to learn how to work with data i
 #### Objectives
 
 1. Learn the basics of server-side programming with Node (and express?)
-2. Learn how to save data to a database with [NedB](https://github.com/louischatriot/nedb).
+2. Learn how to save data to a database with.
    - show just plain array
    - show flat file
    - introduce the idea of the database
 3. Learn how to use `fetch()` to POST data to the server.
 
 ### Module 3: The Weather Here
-
-[The Weather Here](https://github.com/joeyklee/the-weather-here) is a project tutorial by [@joeyklee](https://github.com/joeyklee).
 
 #### Objectives
 
