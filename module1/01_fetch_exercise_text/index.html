@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Coding Train: Data/APIs 1</title>
+  </head>
+  <body>
+    <h1>Fetch a Poem</h1>
+    <p id="poem"/>
+    <script>
+      console.log('about to fetch a poem');
+      catchPoem()
+        .then(poem => {
+          document.getElementById('poem').innerText = poem;
+          console.log('yay');
+        })
+        .catch(error => {
+          console.log('error!');
+          console.error(error);
+        });
+
+      async function catchPoem() {
+        const response = await fetch('poem.txt');
+        return await response.text();
+      }
+    </script>
+  </body>
+</html>
