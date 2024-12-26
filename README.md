@@ -1,4 +1,4 @@
-# Working with Data and APIs in JavaScript
+# Working with Data and APIs in JavaScript.
 
 ## Description
 
